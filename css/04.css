@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width:999px;
+	height:100px;
+	background: whitesmoke;
+	margin: 0 auto;
+}
+.header .logo{
+	width: 250px;
+	height: 30px;
+	/*background: #0f0;*/
+	float: left;
+	margin-left:20px ;
+	margin-top: 39px;
+}
+.header .search{
+	width: 230px;
+	height: 30px;
+	float: right;
+	
+	margin-right:18px ;
+	margin-top: 39px;
+	border: 1px solid #e5e5e5;
+}
+.header .search input[type=text]{
+	width: 197px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1;
+	float: left;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.header .search input[type=submit]{
+	width: 33px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1 url(../imgarch.png)no-repeat;
+	float: right;
+	
+}
+.nav{
+	width: 999px;
+	height: 60px;
+	background: #000000;
+	margin: 0 auto;
+}
+.nav ul li{
+	width: 122px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	list-style:none;
+	text-align: center;
+	border: 1px solid white;
+}
+.nav ul li:last-child{
+	border: none;/*去掉最后一个的有边框*/
+}
+a{
+	text-decoration: none;/*去掉下划线*/
+	font-size: 20px;
+	color: white;
+}	
+/*悬停效果*/
+.nav ul li:hover{
+				background: red;
+			}		
+.banner{
+	width:999px ;
+	height: 465px;
+	/*居中*/
+	margin: 0  auto;
+}
+.four{
+	margin: 0 auto;
+	width: 999px;
+	height: 203px;
+	background: whitesmoke;
+}
+.four new{
+	width: 499px;
+	height: 203px;
+	float: left;
+}
+.introduce{
+	width: 250px;
+	height: 203px;
+	float: right;
+	background: #d8d5d5;
+}
+.invite{
+	width:250px ;
+	height: 203px;
+	float: right; 
+}
+.new h3{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	
+}
+.new ul{
+    border-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-left:20px ;
+	font: 15px"microsoft yahei";
+	color: #242424;
+					
+}
+.new ul li{
+	padding-bottom: 3px;
+}
+.new ul span{
+	float: right;
+	color: black;
+	font-size: 12px;
+	color: rosybrown;
+}
+.introduce h3{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	
+}
+.introduce p{
+	padding-left: 20px;
+	font: 15px "microsoft yahei";
+	
+}
+.introduce p:last-child{
+	padding-top: 20px;
+	padding-left: 20px;
+	font: 13px "microsoft yahei";
+	color:whitesmoke;
+}
+.invite h3{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.invite p{
+	padding-left: 20px;
+	font: 12px"microsoft yahei";
+	
+	
+}
+.flowers{
+	float: right;
+}
+.more{
+	float: left;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.fifth{
+	width: 999px;
+	height: 200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.fifth h3{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.box1{
+	float: right;
+	
+	width: 200px;
+	padding-right: 10px;
+}
+.box2{
+	float: right;
+	padding-right: 60px;
+	width: 200px;
+}
+.box3{
+	float: right;
+	padding-right: 60px;
+	width: 200px;
+}
+.box4{
+	float: left;
+	width: 200px;
+	padding-right: 50px;
+}
+.fifth p{
+	padding-top: 10px;
+	font: 12px"microsoft yahei";
+}
+.six{
+	width: 999px;
+	height: 200px;
+	margin: 0 auto;
+	background: #E5E5E5;
+	margin-top: 60px;
+}
+.intnet{
+	float: right;
+	width: 249px;
+	height: 200px;
+	
+	margin-left: 9px;
+}
+
+.tech{
+	float: right;
+	width: 240px;
+	height: 200px;
+	
+}
+.center{
+	float: left;
+	width: 490px;
+	height: 200px;
+	
+	margin-right: 9px;
+}
+
+.center h3{
+	font: 18px "microsoft yahei";
+	border-bottom: 1px solid #666666;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.center li{
+	list-style: none;
+	background: url(../img/item_icon.png) no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	
+	
+	
+}
+.center ul{
+	float: right;
+	padding-right: 60px;
+}
+.center ul:last-child{
+	float: left;
+	padding-left: 10px;
+}
+.intnet h3{
+	font: 18px "microsoft yahei";
+	border-bottom: 1px solid #666666;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.tech h3{
+	font: 18px "microsoft yahei";
+	border-bottom: 1px solid #666666;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.tech li{
+	list-style: none;
+	background: url(../img/item_icon.png) no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	clear: both;
+	
+}
+.tech ul{
+	padding-left: 10px;
+}
+.china{
+	text-align: center;
+}
